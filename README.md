@@ -28,6 +28,19 @@ INST-414-Final/
 └── README.md                  # Project overview and file documentation
 ```
 
+##  How to Run
+
+1. Run `preprocessing.py` to clean the dataset and generate `returns_cleaned.csv`.
+
+2. Run `EDA.py` to explore the cleaned data.
+
+3. Run the following scripts to train each model and generate result CSVs:
+   - `randomforest.py`
+   - `modeltree.py`
+   - `logisric regression.py`
+   - `linearregression.py`
+
+4. Finally, run `compare_results.py` to generate comparison model performance.
 
 
 ## Models
